@@ -1,1 +1,20 @@
 @import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f3f4f6;
+}
+
+section {
+  padding: 80px 0;
+}
+
+/* home page */
+.home-bg {
+  background-image: url("/assets/bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
