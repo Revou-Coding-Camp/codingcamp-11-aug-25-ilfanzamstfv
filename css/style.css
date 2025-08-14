@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
 
 html {
   scroll-behavior: smooth;
@@ -17,4 +18,21 @@ section {
   background-image: url("/assets/bg.jpg");
   background-size: cover;
   background-position: center;
+}
+
+/* form page */
+.date-input::-webkit-datetime-edit {
+  color: #d1d5db; 
+}
+.date-input::-webkit-calendar-picker-indicator {
+  filter: invert(0.8); 
+}
+.date-input::-webkit-datetime-edit-fields-wrapper {
+  background: #111827; 
+}
+.date-input::-webkit-inner-spin-button {
+  display: none; 
+}
+.date-input::-webkit-clear-button {
+  color: #d1d5db;
 }
